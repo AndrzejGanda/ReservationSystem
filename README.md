@@ -2,7 +2,7 @@
 
 * [General info](#general-info)
 * [Manual](#manual)
-* [Technolgies](#technologies)
+* [Technologies](#technologies)
 * [Configuration](#configuration)
 
 ## General info
@@ -22,7 +22,24 @@ In order to sign up for a meeting, the participant has to provide name and e-mai
 "POST" button to create new meeting
 "DELETE" button to delete meeting
 
-## Technolgies
+### Example of use:
+#### POST:
+```
+time:2020-01-01 name:meeting1
+```
+#### Get:
+```
+[
+  {
+    "date": "2020-02-01T23:00:00Z",
+    "name": "meeting1",
+    "participants": [],
+    "id": 1
+  }
+]
+```
+
+## Technologies
 
 The application was written in C# using the .NET 5.0 platform.
 MongoDB database is used in the application.
