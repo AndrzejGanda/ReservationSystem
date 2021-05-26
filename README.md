@@ -49,4 +49,4 @@ MongoDB database is used in the application.
 Before starting the program, the user should connect the program to the working MongoDB installation.
 The other way is to change DataBaseMeetingRepository>() to InMemomryMeetingRepository>()
 ### Warning:
-Secound solution doesn't save changes. It is for testing purpose only.
+Second solution doesn't save changes. It is for testing purpose only.
